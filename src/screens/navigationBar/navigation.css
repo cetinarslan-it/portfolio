@@ -1,0 +1,22 @@
+.navigation__container {
+    background-color: var(--nav-color);
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--font-color) !important;
+    font-size: 20px;
+}
+.navbar-light .navbar-brand {
+    color: var(--font-color) !important;
+    font-size: 25px;   
+}
+    
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.links a:hover {
+    background-color: var(--font-color-hover);
+}
