@@ -1,7 +1,6 @@
 .navigation__container {
     background-color: var(--nav-color);
     color: ghostwhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -10,7 +9,7 @@
 }
 .navbar-light .navbar-brand {
     color: var(--font-color) !important;
-    font-size: 25px;   
+    font-size: 30px;   
 }
     
 .navbar-light .navbar-toggler-icon {
