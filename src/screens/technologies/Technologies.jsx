@@ -8,7 +8,7 @@ function Technologies() {
     <div className="technologies__container" id="technologies">
       <div>
         <h1 style={{ textAlign: "center", fontWeight: "bold"}}>
-          Some of the techonologies that I use
+          Some of the techonologies that I use...
         </h1>
       </div>
       <div className="tech__cards__container">

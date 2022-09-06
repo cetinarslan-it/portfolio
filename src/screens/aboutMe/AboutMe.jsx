@@ -4,7 +4,7 @@ import Person from "../../images/myPicture.png";
 
 function AboutMe() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <h1>About me...</h1>
       <div className="about-container__body">
         <div className="about-container__picture">

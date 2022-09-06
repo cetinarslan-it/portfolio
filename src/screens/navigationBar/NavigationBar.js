@@ -26,7 +26,7 @@ function NavigationBar() {
         collapseOnSelect
         expand="md"
       >
-        <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
+        <Navbar.Brand style={{ marginLeft: "2rem" }} href="#home">
           Cetin ARSLAN
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
