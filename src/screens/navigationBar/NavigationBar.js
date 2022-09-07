@@ -27,7 +27,13 @@ function NavigationBar() {
         collapseOnSelect
         expand="md"
       >
-        <img className="navbar-userIcon" src={Person} height="50px" width="50px" alt="My cat"></img>
+        <img
+          className="navbar-userIcon"
+          src={Person}
+          height="50px"
+          width="50px"
+          alt="My cat"
+        ></img>
         <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
           Cetin ARSLAN
         </Navbar.Brand>
@@ -41,8 +47,12 @@ function NavigationBar() {
         >
           <Nav className="links">
             {createLinks()}
-            <a style={{ margin: "0 1rem" }} href="mailto:cetinarslan.se@gmail.com">
-              <img className="navbar-mailIcon"
+            <a
+              style={{ margin: "0 1rem" }}
+              href="mailto:cetinarslan.se@gmail.com"
+            >
+              <img
+                className="navbar-mailIcon"
                 src="https://www.freeiconspng.com/uploads/white-envelope-icon-png-15.jpg"
                 width="50"
                 alt="white envelope icon png"

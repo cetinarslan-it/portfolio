@@ -1,30 +1,30 @@
 .navigation__container {
-    background-color: var(--nav-color);
-    color: ghostwhite;
+  background-color: var(--nav-color);
+  color: ghostwhite;
 }
 
 .navbar-userIcon {
-    border-radius: 50%;
-    margin-left: 1rem;
+  border-radius: 50%;
+  margin-left: 1rem;
 }
 
 .navbar-mailIcon {
-    margin-bottom:-1rem;
+  margin-bottom: -1rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--font-color) !important;
-    font-size: 20px;
+  color: var(--font-color) !important;
+  font-size: 20px;
 }
 .navbar-light .navbar-brand {
-    color: var(--font-color) !important;
-    font-size: 30px;   
+  color: var(--font-color) !important;
+  font-size: 30px;
 }
-    
+
 .navbar-light .navbar-toggler-icon {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 .links a:hover {
-    background-color: var(--font-color-hover);
+  background-color: var(--font-color-hover);
 }

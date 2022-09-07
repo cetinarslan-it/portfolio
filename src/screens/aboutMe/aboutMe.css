@@ -15,7 +15,7 @@
 .about-container__body {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .about-container img {
@@ -43,9 +43,8 @@
   }
 
   .about-container h1 {
-    font-size:30px;
+    font-size: 30px;
     margin-bottom: 4rem;
-    
   }
 
   .about-container img {
@@ -56,20 +55,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about-container h1 {
+    font-size: 26px;
+    margin-bottom: 2rem;
+  }
 
-    .about-container h1 {
-        font-size:26px;
-        margin-bottom: 2rem;
-      }
+  .about-container img {
+    width: 150px;
+    height: 150px;
+  }
 
-      .about-container img {
-        width: 150px;
-        height: 150px;
-      }
-
-      .about-container__text {
-        max-width: 600px;
-        margin: 0 1rem;
-      }
- 
+  .about-container__text {
+    max-width: 600px;
+    margin: 0 1rem;
+  }
 }
