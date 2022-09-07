@@ -16,3 +16,12 @@
 .header-question {
     font-size: 100px;
 }
+
+/* ---------------- Media Query --------------------------- */
+
+@media only screen and (max-width: 900px) {
+    .header-question {
+        font-size:70px;
+    }
+    
+}

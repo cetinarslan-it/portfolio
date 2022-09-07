@@ -13,7 +13,7 @@ function App() {
       <Navigation />
       <Header/>
       <Particles/>
-      <AboutMe/>
+      <AboutMe style={{backgroundImage: `url('../../images/background.jpg')`}}/>
       <Technologies/>
       <ContactMe/>
     </div>

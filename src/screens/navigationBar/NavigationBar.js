@@ -5,8 +5,8 @@ import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../helpers/navigationLinks";
 
 function createLinks() {
-  return navigationLinks.map((e, idx) => (
-    <Nav.Link key={idx} href={e.ref}>
+  return navigationLinks.map((e, index) => (
+    <Nav.Link key={index} href={e.ref}>
       {e.name}
     </Nav.Link>
   ));
@@ -37,8 +37,15 @@ function NavigationBar() {
             borderColor: "none",
           }}
         >
-          <Nav className="links" style={{ margin: "0 1rem" }}>
+          <Nav className="links">
             {createLinks()}
+            <a style={{ margin: "0 1rem" }} href="mailto:cetinarslan.se@gmail.com">
+              <img
+                src="https://www.freeiconspng.com/uploads/white-envelope-icon-png-15.jpg"
+                width="50"
+                alt="white envelope icon png"
+              />
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

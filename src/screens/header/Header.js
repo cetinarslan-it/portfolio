@@ -5,7 +5,7 @@ import "./header.css";
 function Header() {
   return (
     <div className="header-container">
-      <h1 className="header-question">Who am I?</h1>
+      <h1 className="header-question">Who am I ?</h1>
       <Typed
         strings={[
           "",
