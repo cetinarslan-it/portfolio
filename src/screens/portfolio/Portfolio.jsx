@@ -80,7 +80,7 @@ function Portfolio() {
           target="_blank"
           rel="noreferrer"
         >
-         https://github.com/cetinarslan-it
+          https://github.com/cetinarslan-it
         </a>
       </p>
       <Container fluid="lg" style={{ padding: "2rem 0" }}>

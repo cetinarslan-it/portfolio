@@ -14,7 +14,7 @@ function ContactMe() {
   return (
     <div className="contactMe__container" id="contact">
       <div className="contactMe__data__links">
-        <div>
+        <div className="contactMe__data__info">
           <p>Cetin ARSLAN</p>
           <p>072 777 70 79</p>
           <p>cetinarslan.se@gmail.com</p>
@@ -30,8 +30,8 @@ function ContactMe() {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/128px-Linkedin.svg.png"
                 alt="Linkedin"
-                width="80"
-                height="80"
+                width="40"
+                height="40"
               />
             </a>
           </div>
@@ -39,7 +39,7 @@ function ContactMe() {
             <a href="mailto:cetinarslan.se@gmail.com">
               <img
                 src="https://www.freeiconspng.com/uploads/white-envelope-icon-png-15.jpg"
-                height="80"
+                height="40"
                 alt="white envelope icon png"
               />
             </a>
@@ -53,14 +53,14 @@ function ContactMe() {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png"
                 alt="GitHub"
-                width="90"
-                height="90"
+                width="50"
+                height="50"
               />
             </a>
           </div>
         </div>
-        <div className="addPAdding">
-          <div>{createLinks()}</div>
+        <div>
+          <div className="addPadding">{createLinks()}</div>
         </div>
       </div>
       <div style={{ textAlign: "center" }}>
