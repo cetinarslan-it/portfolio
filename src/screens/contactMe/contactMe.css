@@ -3,12 +3,23 @@
     color: aliceblue;
     padding: 1rem;
   }
-  
+
+  .contactMe__container--links{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right: 4rem;
+  }
+
+  .contactMe__container--links img {
+   margin:2rem;
+  }
+
   .contactMe__data__links {
     display: flex;
     justify-content: space-evenly;
   }
-  
+
   .contactMe__data__links a {
     color: white;
     text-decoration: none;
@@ -23,8 +34,25 @@
   @media only screen and (max-width: 600px){
     .contactMe__data__links {
       flex-direction: column;
-      justify-content: space-between;
-      column-gap: 1rem;
-      
+      justify-content: space-between; 
+    }
+
+    .contactMe__container--links{
+      display:flex;
+      flex-direction: row;
+      justify-content:space-around;
+      margin-right: 0rem;
+    }
+  
+    .contactMe__container--links img {
+      height:50px;
+      width:50px;
+      margin-right:0rem;
+      margin-left:0rem;
+    }
+
+    .contactMe__data__links {
+      justify-content: space-evenly;
+      text-align: center;
     }
   }

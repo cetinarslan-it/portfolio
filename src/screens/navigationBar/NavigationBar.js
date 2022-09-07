@@ -3,6 +3,7 @@ import "./navigation.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../helpers/navigationLinks";
+import Person from "../../images/myPicture.png";
 
 function createLinks() {
   return navigationLinks.map((e, index) => (
@@ -26,21 +27,22 @@ function NavigationBar() {
         collapseOnSelect
         expand="md"
       >
-        <Navbar.Brand style={{ marginLeft: "2rem" }} href="#home">
+        <img className="navbar-userIcon" src={Person} height="50px" width="50px" alt="My cat"></img>
+        <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
           Cetin ARSLAN
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           style={{
             justifyContent: "flex-end",
-            marginRight: "1rem",
+            marginLeft: "1rem",
             borderColor: "none",
           }}
         >
           <Nav className="links">
             {createLinks()}
             <a style={{ margin: "0 1rem" }} href="mailto:cetinarslan.se@gmail.com">
-              <img
+              <img className="navbar-mailIcon"
                 src="https://www.freeiconspng.com/uploads/white-envelope-icon-png-15.jpg"
                 width="50"
                 alt="white envelope icon png"

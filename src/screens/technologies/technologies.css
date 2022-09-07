@@ -33,8 +33,7 @@
   
   .tech__icons {
     height: 130px;
-    background-color: var(--light-color);
-    border-radius: 50%;
+   
   }
   
   .tech__card:hover {

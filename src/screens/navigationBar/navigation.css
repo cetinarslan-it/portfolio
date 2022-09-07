@@ -3,6 +3,15 @@
     color: ghostwhite;
 }
 
+.navbar-userIcon {
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.navbar-mailIcon {
+    margin-bottom:-1rem;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: var(--font-color) !important;
     font-size: 20px;
