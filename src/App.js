@@ -6,6 +6,7 @@ import Header from "./screens/header/Header";
 import AboutMe from "./screens/aboutMe/AboutMe";
 import Technologies from "./screens/technologies/Technologies";
 import ContactMe from "./screens/contactMe/ContactMe";
+import Portfolio from "./screens/portfolio/Portfolio";
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
       <Navigation />
       <Header />
       <Particles />
-      <AboutMe
-        style={{ backgroundImage: `url('../../images/background.jpg')` }}
-      />
-      <Technologies />
+      <div className="backgroundImg">
+        <AboutMe />
+        <Technologies />
+        <Portfolio />
+      </div>
       <ContactMe />
     </div>
   );

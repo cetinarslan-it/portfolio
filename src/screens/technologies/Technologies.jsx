@@ -5,7 +5,7 @@ import { techList } from "../../helpers/techList";
 
 function Technologies() {
   return (
-    <div className="technologies__container" id="technologies">
+    <div className="technologies__container" id="skills">
       <div>
         <h1 style={{ textAlign: "center", fontWeight: "bold" }}>
           Some of the techonologies that I use...
