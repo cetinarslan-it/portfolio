@@ -28,3 +28,12 @@
 .links a:hover {
   background-color: var(--font-color-hover);
 }
+
+@media only screen and (max-width: 900px){
+
+  .navbar-mailIcon {
+    margin-bottom: 0rem;
+    margin-left:-1rem;
+  }
+  
+}

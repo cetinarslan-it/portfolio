@@ -1,31 +1,21 @@
 import React from "react";
 import "./skills.css";
 import DevIcon from "devicon-react-svg";
-import { techList } from "../../helpers/techList";
+import { skillList } from "../../helpers/skillList";
 
 function Skills() {
   return (
-    <div className="technologies__container" id="skills">
+    <div className="skills__container" id="skills">
       <div>
-        <h1 style={{ textAlign: "center", fontWeight: "bold" }}>
-          Some of the skills that I use...
-        </h1>
+        <h1>Some of the skills that I have...</h1>
       </div>
-      <div className="tech__cards__container">
-        {techList.map((e, index) => {
+      <div className="skill__cards__container">
+        {skillList.map((e, index) => {
           return (
-            <a href={e.link} target="_blank" rel="noreferrer">
-              <div key={index} className="tech__card">
-                <DevIcon className="tech__icons" icon={e.iconName} />
-                <span
-                  style={{
-                    margin: "5px",
-                    fontSize: "2rem",
-                    fontWeight: "Bold",
-                  }}
-                >
-                  {e.name}
-                </span>
+            <a className="skill__links" href={e.link} target="_blank" rel="noreferrer">
+              <div key={index} className="skill__card">
+                <DevIcon className="skill__icons" icon={e.iconName} />
+                <span style={{color: "black", fontWeight: "bold", fontSize:"1.2rem", textDecoration: "none"}}>{e.name}</span>
               </div>
             </a>
           );

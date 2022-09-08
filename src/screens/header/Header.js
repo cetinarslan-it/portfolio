@@ -9,8 +9,11 @@ function Header() {
       <Typed
         strings={[
           "",
+          "Hi! My name is Cetin.",
+          "I am a...",
           "System Engineer",
           "Automation Tester",
+          "and...",
           "Fullstack .Net Developer",
           "",
         ]}

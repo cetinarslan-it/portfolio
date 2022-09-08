@@ -1,4 +1,4 @@
-.technologies__container {
+.skills__container {
   color: var(--nav-color);
   display: flex;
   flex-direction: column;
@@ -6,7 +6,12 @@
   padding-top: 5rem;
 }
 
-.tech__cards__container {
+.skills__container h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.skill__cards__container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -15,26 +20,44 @@
   margin: 1rem 0;
 }
 
-.tech__card {
+.skill__card {
   width: 20rem;
   height: 15rem;
-  background-color: lightgray;
+  background-color: rgb(248, 246, 246);
   margin: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  border-top: 1px solid var(--nav-color);
+  border-left: 1px solid var(--nav-color);
   border-bottom: 5px solid var(--nav-color);
   border-right: 5px solid var(--nav-color);
   transition: all 0.1s;
 }
 
-.tech__icons {
+.skill__icons {
   height: 130px;
+  text-decoration: none;
 }
 
-.tech__card:hover {
+.skill__names {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skill__links {
+  text-decoration: none;
+}
+
+.skill__card:hover {
+  background-color: var(--font-color-hover);
+  transform: scale(1.05);
+}
+
+.skill__card:active {
   background-color: var(--font-color-hover);
   transform: scale(1.05);
 }

@@ -1,13 +1,8 @@
-export const techList = [
+export const skillList = [
   {
     name: "React",
     iconName: "react",
     link: "https://reactjs.org/",
-  },
-  {
-    name: "Java",
-    iconName: "java",
-    link: "https://www.java.com",
   },
   {
     name: ".Net",
@@ -25,13 +20,28 @@ export const techList = [
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
+    name: "HTML5",
+    iconName: "html5",
+    link: "https://getbootstrap.com/",
+  },
+  {
     name: "Visual Studio",
+    iconName: "visualstudio",
+    link: "https://visualstudio.microsoft.com/",
+  },
+  {
+    name: "Visual Studio Code",
     iconName: "visualstudio",
     link: "https://visualstudio.microsoft.com/",
   },
   {
     name: "Eclipse",
     iconName: "eclipse",
+    link: "https://www.eclipse.org/ide/",
+  },
+  {
+    name: "Java",
+    iconName: "java",
     link: "https://www.eclipse.org/ide/",
   },
   {
@@ -49,4 +59,21 @@ export const techList = [
     iconName: "bootstrap",
     link: "https://getbootstrap.com/",
   },
+  {
+    name: "Mocha",
+    iconName: "mocha",
+    link: "https://getbootstrap.com/",
+  },
+  
+  {
+    name: "C#",
+    iconName: "c#",
+    link: "https://getbootstrap.com/",
+  },
+  {
+    name: "Selenium",
+    iconName: "selenium",
+    link: "https://www.eclipse.org/ide/",
+  },
+  
 ];

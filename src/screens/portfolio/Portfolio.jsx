@@ -28,7 +28,7 @@ function Portfolio() {
         </Modal.Header>
         <Modal.Body>
           <p>{data.summary}</p>
-          <Image src={data.image} style={{ width: "400px" }} />
+          <Image src={data.image} style={{ width: "450px" }} />
         </Modal.Body>
         <a
           id="portfolio__modal__link"
@@ -49,7 +49,7 @@ function Portfolio() {
 
   const mapped = portfolioData.map((e, idx) => {
     return (
-      <Card key={idx} id="portfolio__card__container">
+      <Card style={{margin: "10px"}} key={idx} id="portfolio__card__container">
         <Image
           className="portfolio__image"
           onClick={() => {
@@ -83,7 +83,7 @@ function Portfolio() {
           https://github.com/cetinarslan-it
         </a>
       </p>
-      <Container fluid="lg" style={{ padding: "2rem 0" }}>
+      <Container fluid="lg" style={{ padding: "1rem 1rem", cursor: "pointer"}}>
         <Row>{mapped}</Row>
       </Container>
     </div>

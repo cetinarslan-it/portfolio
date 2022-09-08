@@ -32,7 +32,7 @@ function NavigationBar() {
           src={Person}
           height="50px"
           width="50px"
-          alt="My cat"
+          alt="User foto"
         ></img>
         <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
           Cetin ARSLAN

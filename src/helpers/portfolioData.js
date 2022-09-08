@@ -1,8 +1,5 @@
-//add project on top for latest
 import SaltIverse from "../images/projectimages/saltIverse.gif";
 import Portfolio from "../images/projectimages/portfolio.gif";
-
-//add project on top for latest
 
 const portfolioData = [
   {

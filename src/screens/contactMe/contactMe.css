@@ -44,11 +44,11 @@
   }
 
   .contactMe__container--links img {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin-right: 0rem;
     margin-left: 0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .mail-box img {
@@ -61,7 +61,7 @@
   }
 
   .contactMe__data__info {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .addPadding {

@@ -28,10 +28,10 @@ function ContactMe() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/128px-Linkedin.svg.png"
+                src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"
                 alt="Linkedin"
-                width="40"
-                height="40"
+                width="50"
+                height="50"
               />
             </a>
           </div>
@@ -51,10 +51,10 @@ function ContactMe() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png"
+                src="https://img.icons8.com/3d-fluency/100/000000/github.png"
                 alt="GitHub"
                 width="50"
-                height="50"
+                height="50"   
               />
             </a>
           </div>
