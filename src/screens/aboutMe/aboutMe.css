@@ -34,6 +34,10 @@
   font-size: 14px;
 }
 
+.about-container__text {
+  font-size:25px;
+}
+
 /* ----------- MEDIA QUERY --------------- */
 
 @media only screen and (max-width: 900px) {
@@ -53,6 +57,9 @@
     margin-right: 2rem;
   }
 }
+.about-container__text {
+  font-size:20px;
+}
 
 @media only screen and (max-width: 600px) {
   .about-container h1 {
@@ -68,5 +75,6 @@
   .about-container__text {
     max-width: 600px;
     margin: 0 1rem;
+    font-size:20px;
   }
 }
