@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./portfolio.css";
-import portfolioData from "../../helpers/portfolioData";
+import portfolioData from "../../repositories/portfolioData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";

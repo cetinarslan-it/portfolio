@@ -59,21 +59,4 @@ export const skillList = [
     iconName: "bootstrap",
     link: "https://getbootstrap.com/",
   },
-  {
-    name: "Mocha",
-    iconName: "mocha",
-    link: "https://getbootstrap.com/",
-  },
-  
-  {
-    name: "C#",
-    iconName: "c#",
-    link: "https://getbootstrap.com/",
-  },
-  {
-    name: "Selenium",
-    iconName: "selenium",
-    link: "https://www.eclipse.org/ide/",
-  },
-  
 ];

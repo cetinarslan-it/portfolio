@@ -2,7 +2,7 @@ import React from "react";
 import "./navigation.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { navigationLinks } from "../../helpers/navigationLinks";
+import { navigationLinks } from "../../repositories/navigationLinks";
 import Person from "../../images/myPicture.png";
 
 function createLinks() {

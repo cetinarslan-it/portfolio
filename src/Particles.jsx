@@ -84,7 +84,6 @@ export default class Particles extends React.Component {
           p.vy *= -1;
         }
       }
-
       requestAnimationFrame(draw);
     };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./skills.css";
 import DevIcon from "devicon-react-svg";
-import { skillList } from "../../helpers/skillList";
+import { skillList } from "../../repositories/skillList";
 
 function Skills() {
   return (

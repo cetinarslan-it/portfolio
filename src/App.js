@@ -1,13 +1,13 @@
 import "./App.css";
-import Navigation from "./screens/navigationBar/NavigationBar";
+import Navigation from "./pages/navigationBar/NavigationBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "./Particles";
-import Header from "./screens/header/Header";
-import AboutMe from "./screens/aboutMe/AboutMe";
-import Resume from "./screens/resume/Resume";
-import Skills from "./screens/skills/Skills";
-import ContactMe from "./screens/contactMe/ContactMe";
-import Portfolio from "./screens/portfolio/Portfolio";
+import Header from "./pages/header/Header";
+import AboutMe from "./pages/aboutMe/AboutMe";
+import Resume from "./pages/resume/Resume";
+import Skills from "./pages/skills/Skills";
+import ContactMe from "./pages/contactMe/ContactMe";
+import Portfolio from "./pages/portfolio/Portfolio";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactMe.css";
-import { navigationLinks } from "../../helpers/navigationLinks";
+import { navigationLinks } from "../../repositories/navigationLinks";
 
 function createLinks() {
   return navigationLinks.map((e, index) => (
