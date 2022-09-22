@@ -6,9 +6,10 @@ function AboutMe() {
   return (
     <div className="about-container" id="about">
       <h1>About me...</h1>
+      <hr className="w-100"/>
       <div className="about-container__body">
         <div className="about-container__picture">
-          <img src={Person} alt="My cat"></img>
+          <img src={Person} alt="..."></img>
         </div>
         <div className="about-container__text">
           <div>

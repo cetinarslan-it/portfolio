@@ -89,6 +89,7 @@ function Portfolio() {
   return (
     <div className="portfolio__main__container" id="portfolio">
       <h1>Portfolio</h1>
+      <hr/>
       <p>
         You can visit my github account by clicking the link &#10146;
         <a

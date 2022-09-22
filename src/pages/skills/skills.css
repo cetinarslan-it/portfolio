@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 5rem;
+  justify-content:center;
 }
 
 .skills__container h1 {
