@@ -1,5 +1,5 @@
-import SaltIverse from "../images/projectimages/saltIverse.gif";
-import Portfolio from "../images/projectimages/portfolio.gif";
+import SaltIverse from "../images/projectGIFs/saltIverse.gif";
+import Portfolio from "../images/projectGIFs/portfolio.gif";
 
 const portfolioData = [
   {
