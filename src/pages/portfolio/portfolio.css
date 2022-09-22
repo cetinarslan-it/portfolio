@@ -38,12 +38,24 @@
   display: block;
 }
 
+.modal{
+  border: 2px solid gray;
+}
+
+.modal-image{
+  border: 1px solid gray;
+}
+
+.modal-footer-title{
+  display:block;
+}
+
 .modal-backdrop.show {
-  opacity: 0.1 !important;
+  opacity: 0.4 !important;
 }
 
 #portfolio__modal__link {
-  padding: 0 0 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 #portfolio__modal__link:link {

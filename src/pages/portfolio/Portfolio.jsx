@@ -17,7 +17,7 @@ function Portfolio() {
       <Modal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        size="lg"
+        size="md"
         arial-labelledby="contained-modal-title-vcenter"
         centered
       >
@@ -28,7 +28,11 @@ function Portfolio() {
         </Modal.Header>
         <Modal.Body>
           <p>{data.summary}</p>
-          <Image src={data.image} style={{ width: "450px" }} />
+          <Image
+            className="modal-image"
+            src={data.image}
+            style={{ width: "470px" }}
+          />
         </Modal.Body>
         <a
           id="portfolio__modal__link"
@@ -36,11 +40,17 @@ function Portfolio() {
           target="_blank"
           rel="noreferrer"
         >
-          Go to site
+          Go to site &#10146;
         </a>
-        <Modal.Footer>
-          <div>Technologies used: </div>
-          <p style={{ fontSize: "0.7rem", marginRight: "auto" }}>{data.tech}</p>
+        <Modal.Footer className="justify-content-between">
+          <div className="modal-footter-text">
+            <div className="modal-footer-title mb-2" style={{ fontWeight: "bold" }}>
+              Technologies used:{" "}
+            </div>
+            <p style={{ fontSize: "0.7rem", marginRight: "auto" }}>
+              {data.tech}
+            </p>
+          </div>
           <Button onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
@@ -49,9 +59,15 @@ function Portfolio() {
 
   const mapped = portfolioData.map((e, idx) => {
     return (
-      <Card style={{margin: "10px"}} key={idx} id="portfolio__card__container">
+      <Card
+        style={{ margin: "10px" }}
+        key={idx}
+        id="portfolio__card__container"
+      >
+        <div className="mb-2" style={{fontWeight:"bold"}}>{e.desc}</div>
         <Image
           className="portfolio__image"
+          style={{border:"1px solid gray"}}
           onClick={() => {
             setTempData({
               image: e.image,
@@ -83,7 +99,7 @@ function Portfolio() {
           https://github.com/cetinarslan-it
         </a>
       </p>
-      <Container fluid="lg" style={{ padding: "1rem 1rem", cursor: "pointer"}}>
+      <Container fluid="lg" style={{ padding: "1rem 1rem", cursor: "pointer" }}>
         <Row>{mapped}</Row>
       </Container>
     </div>
