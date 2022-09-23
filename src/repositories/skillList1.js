@@ -65,6 +65,11 @@ export const skillList1 = [
         link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
     },
     {
+        name: "Docker",
+        src: require("../images/icons/docker-icon.png"),
+        link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    },
+    {
         name: "Github",
         src: require("../images/icons/github-icon.png"),
         link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
