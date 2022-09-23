@@ -7,7 +7,6 @@ function Skills() {
   return (
     <div className="skills__container" id="skills">
       <h1>Some of the skills that I have...</h1>
-
       <div className="skill__cards__container">
         {skillList.map((e, index) => {
           return (

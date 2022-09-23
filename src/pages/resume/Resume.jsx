@@ -14,7 +14,6 @@ function Resume() {
       <section>
         <div className="container py-5">
           {resumeList.map((e, index) => {
-
             return (
               <div className="main-timeline">               
                 <div className={e.dir}>

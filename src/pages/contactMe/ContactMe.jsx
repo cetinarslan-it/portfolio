@@ -65,8 +65,8 @@ function ContactMe() {
           <div className="addPadding">{createLinks()}</div>
         </div>
       </div>
-      <div style={{ textAlign: "center" }}>
-        Copyright&copy; {new Date().getFullYear()} All rights reserved
+      <div style={{ textAlign: "center", marginLeft:"3%"}}>
+        Copyright&copy; {new Date().getFullYear()} Cetin's Portfolio - All rights reserved
       </div>
     </div>
   );

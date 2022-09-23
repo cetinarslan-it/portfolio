@@ -57,11 +57,11 @@ function Portfolio() {
     );
   }
 
-  const mapped = portfolioData.map((e, idx) => {
+  const mapped = portfolioData.map((e, index) => {
     return (
       <Card
         style={{ margin: "10px" }}
-        key={idx}
+        key={index}
         id="portfolio__card__container"
       >
         <div className="mb-2" style={{fontWeight:"bold"}}>{e.desc}</div>
@@ -83,13 +83,14 @@ function Portfolio() {
         <div className="portfolio__click__info">&#x1F50E;&#xFE0E;</div>
         {createModal(tempData)}
       </Card>
+      
     );
   });
 
   return (
-    <div className="portfolio__main__container" id="portfolio">
-      <h1>Portfolio</h1>
-      <hr/>
+    <div className="portfolio__main__container" id="portfolio">  
+      <h1>Portfolio</h1>     
+      <hr/>     
       <p>
         You can visit my github account by clicking the link &#10146;
         <a
@@ -100,7 +101,7 @@ function Portfolio() {
           https://github.com/cetinarslan-it
         </a>
       </p>
-      <Container fluid="md" style={{ padding: "1rem 1rem", cursor: "pointer" }}>
+      <Container fluid="lg" style={{ padding: "1rem", cursor: "pointer"}}>
         <Row>{mapped}</Row>
       </Container>
     </div>
