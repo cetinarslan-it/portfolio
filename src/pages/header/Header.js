@@ -15,7 +15,7 @@ function Header() {
           "Automation Tester",
           "and...",
           "Fullstack .Net Developer",
-          "",
+          "Welcome to my website!...",
         ]}
         typeSpeed={140}
         backSpeed={270}

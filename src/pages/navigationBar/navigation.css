@@ -1,15 +1,10 @@
 .navigation__container {
   background-color: var(--nav-color);
-  color: ghostwhite;
 }
 
 .navbar-userIcon {
   border-radius: 50%;
   margin-left: 1rem;
-}
-
-.navbar-mailIcon {
-  margin-bottom: -1rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -27,13 +22,4 @@
 
 .links a:hover {
   background-color: var(--font-color-hover);
-}
-
-@media only screen and (max-width: 900px){
-
-  .navbar-mailIcon {
-    margin-bottom: 0rem;
-    margin-left:-1rem;
-  }
-  
 }

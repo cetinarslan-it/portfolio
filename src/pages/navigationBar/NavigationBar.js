@@ -45,7 +45,7 @@ function NavigationBar() {
             borderColor: "none",
           }}
         >
-          <Nav className="nav nav-tabs">
+          <Nav className="nav nav-pills me-3">
             {createLinks()}
           </Nav>
         </Navbar.Collapse>
