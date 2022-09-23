@@ -1,4 +1,4 @@
-import SaltIverse from "../images/projectGIFs/saltIverse.gif";
+import StudentPortal from "../images/projectGIFs/StudentPortal.gif";
 import Portfolio from "../images/projectGIFs/portfolio.gif";
 import NZWalksAPI from "../images/projectGIFs/NZWalks.gif";
 import ToDoApp from "../images/projectGIFs/todo-react.gif";
@@ -12,8 +12,8 @@ const portfolioData = [
     tech: "React, Javascript|HTML5|CSS3, Bootstrap",
   },
   {
-    image: SaltIverse,
-    link: "https://github.com/cetinarslan-it/Salt-Iverse",
+    image: StudentPortal,
+    link: "https://github.com/cetinarslan-it/StudentPortal",
     desc: "Student Portal",
     summary: "An app for students to reach educational materials",
     tech: "React, Javascript|HTML5|CSS3, MUI",
@@ -23,7 +23,7 @@ const portfolioData = [
     link: "https://github.com/cetinarslan-it/NZWalks",
     desc: "ASP.Net Web API with JWT",
     summary: "A web API project with authorization and authentication",
-    tech: "ASP.Net Web API and C#",
+    tech: "ASP.Net Web API, C#, Sql Server MS",
   },
   {
     image: ToDoApp,

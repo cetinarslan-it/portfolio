@@ -1,3 +1,7 @@
+.portfolio__main__container{
+
+}
+
 .portfolio__main__container h1 {
   padding-top: 5rem;
   font-weight: bold;
@@ -15,7 +19,8 @@
 }
 
 #portfolio__card__container {
-  width: 47%;
+  width: 30%;
+  min-width: 250px;
   padding: 10px;
   border: 1px solid gray;
 }

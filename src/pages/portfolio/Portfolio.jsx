@@ -17,7 +17,7 @@ function Portfolio() {
       <Modal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        size="md"
+        size="xl"
         arial-labelledby="contained-modal-title-vcenter"
         centered
       >
@@ -31,7 +31,7 @@ function Portfolio() {
           <Image
             className="modal-image"
             src={data.image}
-            style={{ width: "470px" }}
+            style={{ width: "100%" }}
           />
         </Modal.Body>
         <a
@@ -100,7 +100,7 @@ function Portfolio() {
           https://github.com/cetinarslan-it
         </a>
       </p>
-      <Container fluid="lg" style={{ padding: "1rem 1rem", cursor: "pointer" }}>
+      <Container fluid="md" style={{ padding: "1rem 1rem", cursor: "pointer" }}>
         <Row>{mapped}</Row>
       </Container>
     </div>
