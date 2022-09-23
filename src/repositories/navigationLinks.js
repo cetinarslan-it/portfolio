@@ -4,7 +4,7 @@ export const navigationLinks = [
     ref: "#home",
   },
   {
-    name: "ABOUTME",
+    name: "ABOUT ME",
     ref: "#about",
   },
   {

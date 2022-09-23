@@ -4,23 +4,37 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  color: var(--font-color);
+  color: var(--header-font-color);
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 1;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .header-question {
-  font-size: 100px;
+  font-size: 150px;
 }
 
 /* ---------------- Media Query --------------------------- */
 
 @media only screen and (max-width: 900px) {
   .header-question {
+    font-size: 100px;
+  }
+
+  .header-container {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-question {
     font-size: 70px;
+  }
+
+  .header-container {
+    font-size: 25px;
   }
 }

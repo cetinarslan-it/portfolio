@@ -17,12 +17,12 @@ function Skills() {
               rel="noreferrer"
             >
               <div key={index} className="skill__card">
-                <img src={e.src} width="75" alt="c# icon" style={{ marginTop: "1rem"}}/>
+                <img src={e.src} width="50" alt="c# icon" style={{ marginTop: "1rem"}}/>
                 <span
                   style={{
                     color: "black",
                     fontWeight: "bold",
-                    fontSize: "1.2rem",
+                    fontSize: "1.1rem",
                     textDecoration: "none",
                     marginTop: "1rem",
                     marginBottom: "1rem",

@@ -1,23 +1,16 @@
-.portfolio__main__container{
-  margin:0;
-  padding:0;
+.portfolio__main__container {
+  padding-top:5rem;
 }
-
 .portfolio__main__container h1 {
-  padding-top: 5rem;
-  font-weight: bold;
-}
-
-.portfolio__main__container h1,
-.portfolio__main__container p {
+  font-weight:bold;
   text-align: center;
-  margin-top: 3rem;
 }
 
 .portfolio__main__container p {
+  text-align:center;
   font-size: 24px;
   font-weight: bold;
- margin-right:50px;
+  margin-right:50px;
 }
 
 #portfolio__card__container {
@@ -58,7 +51,7 @@
 }
 
 .modal-backdrop.show {
-  opacity: 0.1 !important;
+  opacity: 0.4 !important;
 }
 
 #portfolio__modal__link {

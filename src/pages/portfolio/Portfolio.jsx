@@ -17,7 +17,7 @@ function Portfolio() {
       <Modal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        size="xl"
+        size="lg"
         arial-labelledby="contained-modal-title-vcenter"
         centered
       >
@@ -89,8 +89,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio__main__container" id="portfolio">  
-      <h1>Portfolio</h1>     
-      <hr/>     
+      <h1>Portfolio</h1>         
       <p>
         You can visit my github account by clicking the link &#10146;
         <a

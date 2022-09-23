@@ -9,10 +9,9 @@ function Resume() {
     <div>
       <div className="resume-container" id="resume">
         <h1>Resume</h1>
-        <hr className="w-100" />
       </div>
       <section>
-        <div className="container py-5">
+        <div className="container">
           {resumeList.map((e, index) => {
             return (
               <div className="main-timeline">               

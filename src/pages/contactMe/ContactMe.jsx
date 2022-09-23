@@ -32,13 +32,13 @@ function ContactMe() {
               <img
                 src={linkedin}
                 alt="Linkedin"
-                width="50"
-                height="50"
+                width="45"
+                height="45"
               />
             </a>
           </div>
           <div className="mail-box">
-            <a href="mailto:cetinarslan.se@gmail.com">
+            <a href="mailto:cetinarslan.it@gmail.com">
               <img
                 src="https://www.freeiconspng.com/uploads/white-envelope-icon-png-15.jpg"
                 height="45"
@@ -55,8 +55,8 @@ function ContactMe() {
               <img
                 src={github}
                 alt="GitHub"
-                width="50"
-                height="50"   
+                width="45"
+                height="45"   
               />
             </a>
           </div>
