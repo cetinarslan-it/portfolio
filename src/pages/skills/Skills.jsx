@@ -1,7 +1,7 @@
 import React from "react";
 import "./skills.css";
 
-import { skillList1 } from "../../repositories/skillList1";
+import { skillList } from "../../repositories/skillList";
 
 function Skills() {
   return (
@@ -9,7 +9,7 @@ function Skills() {
       <h1>Some of the skills that I have...</h1>
 
       <div className="skill__cards__container">
-        {skillList1.map((e, index) => {
+        {skillList.map((e, index) => {
           return (
             <a
               className="skill__links"

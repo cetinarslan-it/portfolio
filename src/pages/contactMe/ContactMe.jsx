@@ -1,6 +1,8 @@
 import React from "react";
 import "./contactMe.css";
 import { navigationLinks } from "../../repositories/navigationLinks";
+import linkedin from "../../images/icons/linkedin-app-icon.png";
+import github from "../../images/icons/github-icon.png";
 
 function createLinks() {
   return navigationLinks.map((e, index) => (
@@ -28,7 +30,7 @@ function ContactMe() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"
+                src={linkedin}
                 alt="Linkedin"
                 width="50"
                 height="50"
@@ -39,7 +41,7 @@ function ContactMe() {
             <a href="mailto:cetinarslan.se@gmail.com">
               <img
                 src="https://www.freeiconspng.com/uploads/white-envelope-icon-png-15.jpg"
-                height="40"
+                height="45"
                 alt="white envelope icon png"
               />
             </a>
@@ -51,7 +53,7 @@ function ContactMe() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/3d-fluency/100/000000/github.png"
+                src={github}
                 alt="GitHub"
                 width="50"
                 height="50"   
