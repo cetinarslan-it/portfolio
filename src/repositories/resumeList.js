@@ -6,7 +6,7 @@ export const resumeList = [
         dir: "timeline right"
     },
     {
-        src: require("../images/myPicture.png"),
+        src: require("../images/background.jpg"),
         date: "2021-2022",
         exp: "Under construction",
         dir: "timeline left"
@@ -30,7 +30,7 @@ export const resumeList = [
         dir: "timeline right"
     },
     {
-        src: require("../images/myPicture.png"),
+        src: require("../images/background.jpg"),
         date: "2001-2005",
         exp: "Under construction",
         dir: "timeline left"

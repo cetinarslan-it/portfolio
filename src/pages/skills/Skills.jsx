@@ -1,7 +1,7 @@
 import React from "react";
 import "./skills.css";
-import DevIcon from "devicon-react-svg";
-import { skillList } from "../../repositories/skillList";
+
+import { skillList1 } from "../../repositories/skillList1";
 
 function Skills() {
   return (
@@ -9,7 +9,7 @@ function Skills() {
       <h1>Some of the skills that I have...</h1>
 
       <div className="skill__cards__container">
-        {skillList.map((e, index) => {
+        {skillList1.map((e, index) => {
           return (
             <a
               className="skill__links"
@@ -18,13 +18,15 @@ function Skills() {
               rel="noreferrer"
             >
               <div key={index} className="skill__card">
-                <DevIcon className="skill__icons" icon={e.iconName} />
+                <img src={e.src} width="75" alt="c# icon" style={{ marginTop: "1rem"}}/>
                 <span
                   style={{
                     color: "black",
                     fontWeight: "bold",
                     fontSize: "1.2rem",
                     textDecoration: "none",
+                    marginTop: "1rem",
+                    marginBottom: "1rem",
                   }}
                 >
                   {e.name}
