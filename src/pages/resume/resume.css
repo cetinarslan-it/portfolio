@@ -10,10 +10,17 @@
 }
 
 .card{
-  border: 1px solid #BFBFBF;
-  background-color: white;
+  border: 1px solid #e9e6e6;
+  background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px 5px #aaaaaa;
+  background: linear-gradient(145deg, #E2E8EC, #FFFFFF);
+  box-shadow: 4px 4px 8px #CBCBCB, -4px -4px 8px #FFFFFF;
 }
+
+.card:hover {
+  transform: scale(1.02);
+}
+
 
 /* The actual timeline (the vertical ruler) */
 .main-timeline {

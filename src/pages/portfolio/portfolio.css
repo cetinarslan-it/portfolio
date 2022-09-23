@@ -56,7 +56,7 @@
 }
 
 .modal-backdrop.show {
-  opacity: 0.4 !important;
+  opacity: 0.1 !important;
 }
 
 #portfolio__modal__link {

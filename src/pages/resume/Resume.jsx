@@ -1,7 +1,8 @@
 import React from "react";
 import "./resume.css";
 import { resumeList } from "../../repositories/resumeList";
-import foto from "../../images/background.jpg";
+
+
 
 function Resume() {
   return (
@@ -13,17 +14,20 @@ function Resume() {
       <section>
         <div className="container py-5">
           {resumeList.map((e, index) => {
+
             return (
               <div className="main-timeline">               
-                <div className={e.dir === "right" ? "timeline right" : "timeline left"}>
+                <div className={e.dir}>
                   <div className="card">
-                    <div className="card-body p-4 d-lg-flex">
+                    <div className="card-body p-3 d-lg-flex">
+                      <div>
                       <img
-                        src={foto}
+                        src={e.src}
                         className="card-img-top me-4 mb-4"
                         alt=".."
                         style={{ height: "120px", width: "120px" }}
-                      />
+                      /> {console.log(e.src)}
+                      </div>
                       <div>
                         <h3>{e.date}</h3>
                         <p className="mb-0">{e.exp}</p>
