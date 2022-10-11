@@ -19,8 +19,19 @@
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: scale(1.08);
 }
+
+
+.exp-title {
+  font-weight:bold;
+  font-size:1.3rem;
+}
+
+hr{
+  margin-bottom:1rem;
+}
+
 
 
 /* The actual timeline (the vertical ruler) */
