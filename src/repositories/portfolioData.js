@@ -1,16 +1,8 @@
 import StudentPortal from "../images/projectGIFs/StudentPortal.gif";
-import Portfolio from "../images/projectGIFs/Portfolio.gif";
 import NZWalksAPI from "../images/projectGIFs/NZWalks.gif";
 import ToDoApp from "../images/projectGIFs/Todo-react.gif";
 
 const portfolioData = [
-  {
-    image: Portfolio,
-    link: "https://github.com/cetinarslan-it/portfolio",
-    desc: "Portfolio",
-    summary: "A personal website (portfolio)",
-    tech: "React, Javascript|HTML5|CSS3, Bootstrap",
-  },
   {
     image: StudentPortal,
     link: "https://github.com/cetinarslan-it/StudentPortal",
