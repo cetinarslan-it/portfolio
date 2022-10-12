@@ -1,6 +1,6 @@
 import StudentPortal from "../images/projectGIFs/StudentPortal.gif";
 import NZWalksAPI from "../images/projectGIFs/NZWalks.gif";
-/*import ToDoApp from "../images/projectGIFs/Todo-react.gif";*/
+import ToDoApp from "../images/projectGIFs/Todo-react.gif";
 
 const portfolioData = [
  {
@@ -16,14 +16,14 @@ const portfolioData = [
     desc: "ASP.Net Web API with JWT",
     summary: "A web API project with authorization and authentication",
     tech: "ASP.Net Web API, C#, Sql Server MS",
-  },/*
+  },
   {
     image: ToDoApp,
     link: "https://github.com/cetinarslan-it/todoreact",
     desc: "To-Do App",
     summary: "To-do app created in React.js library",
     tech: "React.js, JavaScript, CSS3",
-  },*/
+  },
 ];
 
 export default portfolioData;
