@@ -9,7 +9,7 @@ export const resumeList = [
     {
         src: require("../images/icons/student-icon.png"),
         date: "2022/May - 2022/June",
-        title:"Full Stack .NET - School of Applied Technology </salt>",
+        title: "Full Stack .NET - School of Applied Technology </salt>",
         exp: "From over 1500 applicants, I was one of ~30 students selected to partake in an intensive Full Stack .NET Developer training program. It is an intensive three month program for full stack web development with a focus on TDD, mob programming, and applied learning.",
         dir: "timeline right"
     },
