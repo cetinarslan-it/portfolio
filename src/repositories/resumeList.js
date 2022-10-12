@@ -17,7 +17,7 @@ export const resumeList = [
         src: require("../images/icons/agileprocrm-icon.png"),
         date: "2021-2022",
         title: "Front-End Automation Tester(SDET)",
-        exp: "Worked as an automation tester on front-end in agile/scrum using Java, IntelliJ, Maven, Selenium, Cucumber and TestNG",
+        exp: "Worked as an automation tester on front-end in agile/scrum environment using Java, IntelliJ, Maven, Selenium, Cucumber and TestNG",
         dir: "timeline left"
     },
     {
