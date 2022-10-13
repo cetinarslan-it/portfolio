@@ -31,6 +31,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .contactMe__container {
+    font-size:smaller;
+  }
   .contactMe__data__links {
     flex-direction: column;
     justify-content: space-between;
