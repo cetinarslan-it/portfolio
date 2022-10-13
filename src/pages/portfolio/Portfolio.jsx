@@ -60,7 +60,7 @@ function Portfolio() {
   const mapped = portfolioData.map((e, index) => {
     return (
       <Card
-        style={{ margin: "10px" }}
+        style={{ margin: "20px" }}
         key={index}
         id="portfolio__card__container"
       >
@@ -100,8 +100,8 @@ function Portfolio() {
           https://github.com/cetinarslan-it
         </a>
       </p>
-      <Container fluid="lg" style={{ padding: "1rem", cursor: "pointer"}}>
-        <Row>{mapped}</Row>
+      <Container className="card-container" fluid="lg" style={{ padding: "1rem", cursor: "pointer"}}>
+        <Row className="row" style={{ padding: "0px"}}>{mapped}</Row>
       </Container>
     </div>
   );

@@ -1,28 +1,33 @@
 .portfolio__main__container {
-  padding-top:5rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:5rem, 1rem;
 }
+
 .portfolio__main__container h1 {
   font-weight:bold;
   text-align: center;
+  padding-top:5rem;
 }
 
 .portfolio__main__container p {
   text-align:center;
   font-size: 24px;
   font-weight: bold;
-  margin-right:50px;
 }
 
 #portfolio__card__container {
-  width: 30%;
-  min-width: 250px;
+  width: 45%;
+  min-width: 200px;
   padding: 5px;
   border: 1px solid gray;
 }
 
 .portfolio__image:hover {
   cursor: pointer;
-  filter: brightness(50%);
+  filter: brightness(60%);
 }
 
 .portfolio__click__info {
@@ -36,10 +41,6 @@
 
 .portfolio__image:hover + .portfolio__click__info {
   display: block;
-}
-
-.modal{
-  border: 2px solid gray;
 }
 
 .modal-image{
@@ -62,11 +63,19 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+.row{
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .portfolio__main__container p {
+   font-size:smaller;
+  }
+
   #portfolio__card__container {
-    width: 100%;
-    padding: 0.5rem 2.5rem;
-    border: 1px solid gray;
+    width: 95%;
+    padding: 0.5rem 1rem;
   }
 }
 
