@@ -12,8 +12,8 @@ function Resume() {
         <div className="container">
           {resumeList.map((e, index) => {
             return (
-              <div className="main-timeline">
-                <div className={e.dir}>
+              <div className="main-timeline" key={index}>
+                <div className={e.dir} >
                   <div className="card">
                     <div className="card-body p-3 d-lg-flex">
                       <div>

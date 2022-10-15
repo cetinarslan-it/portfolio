@@ -6,7 +6,8 @@ import Header from "./pages/header/Header";
 import AboutMe from "./pages/aboutMe/AboutMe";
 import Resume from "./pages/resume/Resume";
 import Skills from "./pages/skills/Skills";
-import ContactMe from "./pages/contactMe/ContactMe";
+import Contact from "./pages/contact/Contact";
+import Footer from "./pages/footer/Footer";
 import Portfolio from "./pages/portfolio/Portfolio";
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
       <Particles />
       <div className="backgroundImg">
         <AboutMe />
-        <Resume/>
-        <Skills/>
+        <Resume />
+        <Skills />
         <Portfolio />
+        <Contact />
       </div>
-      <ContactMe />
+      <Footer />
     </div>
   );
 }

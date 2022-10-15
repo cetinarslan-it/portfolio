@@ -1,8 +1,8 @@
 import React from "react";
-import "./contactMe.css";
 import { navigationLinks } from "../../repositories/navigationLinks";
 import linkedin from "../../images/icons/linkedin-app-icon.png";
 import github from "../../images/icons/github-icon.png";
+import "./footer.css";
 
 function createLinks() {
   return navigationLinks.map((e, index) => (
@@ -12,17 +12,17 @@ function createLinks() {
   ));
 }
 
-function ContactMe() {
+function Footer() {
   return (
-    <div className="contactMe__container" id="contact">
-      <div className="contactMe__data__links">
-        <div className="contactMe__data__info">
+    <div className="footer__container">
+      <div className="footer__data__links">
+        <div className="footer__data__info">
           <p>Cetin ARSLAN</p>
           <p>072 777 70 79</p>
           <p>cetinarslan.se@gmail.com</p>
           <p>Huddinge, Stockholm</p>
         </div>
-        <div className="contactMe__container--links">
+        <div className="footer__container--links">
           <div>
             <a
               href="https://www.linkedin.com/in/ctnrsln1923/"
@@ -72,4 +72,4 @@ function ContactMe() {
   );
 }
 
-export default ContactMe;
+export default Footer;

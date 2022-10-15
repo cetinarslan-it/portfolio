@@ -18,6 +18,7 @@
   background-image: url("./images/background.jpg");
   background-color: lightgray;
   background-blend-mode: lighten;
+  padding-bottom:5rem;
 }
 
 

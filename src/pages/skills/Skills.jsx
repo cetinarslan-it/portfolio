@@ -10,13 +10,14 @@ function Skills() {
       <div className="skill__cards__container">
         {skillList.map((e, index) => {
           return (
-            <a
+            <a 
+              key={index} 
               className="skill__links"
               href={e.link}
               target="_blank"
               rel="noreferrer"
             >
-              <div key={index} className="skill__card">
+              <div className="skill__card">
                 <img src={e.src} width="50" alt="c# icon" style={{ marginTop: "1rem"}}/>
                 <span
                   style={{
