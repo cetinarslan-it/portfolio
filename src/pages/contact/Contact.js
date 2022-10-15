@@ -7,7 +7,7 @@ function Contact() {
       <div className="form-container">
         <p>You can contact me via phone or message!</p>
         <form
-          name="contact v1"
+          name="contact"
           method="post"
           data-netlify="true"
           onSubmit="submit"
