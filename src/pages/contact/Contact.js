@@ -12,7 +12,7 @@ function Contact() {
           data-netlify="true"
           onSubmit="submit"
         >
-          <input type="hidden" name="form-name" value="contact v1" />
+          <input type="hidden" name="form-name" value="contact" />
 
           <label htmlFor="firstname">First Name <br /></label>
           <input id="fistname" name="firstname" placeholder="Cetin" required />
