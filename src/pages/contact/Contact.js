@@ -8,20 +8,20 @@ function Contact() {
         <p>You can contact me via phone or message!</p>
         <form
           name="contact"
+          action="/contact"
           method="post"
-          data-netlify="true"
           onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact" />
 
           <label htmlFor="firstname">First Name* <br /></label>
-          <input id="fistname" name="firstname" placeholder="Cetin" required />
+          <input type="text" id="firstname" name="firstname" placeholder="Cetin" required />
 
           <label htmlFor="lastname">Last Name*<br /></label>
-          <input id="lastname" name="lastname" placeholder="Arslan" required />
+          <input type="text" id="lastname" name="lastname" placeholder="Arslan" required />
 
           <label htmlFor="phonenumber">Phone Number<br /></label>
-          <input id="phonenumber" name="phonenumber" placeholder="XXX-XXX-XX-XX" />
+          <input type="text" id="phonenumber" name="phonenumber" placeholder="XXX-XXX-XX-XX" />
 
           <label htmlFor="email">Email* <br /></label>
           <input
@@ -43,7 +43,7 @@ function Contact() {
           <input type="submit" />
 
           <p style={{textAlign:"left", fontSize:"0.8rem"}}>All the info with * sign are required. Please fill in the required ones...</p>
-          
+
         </form>
       </div>
     </div>
