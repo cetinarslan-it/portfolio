@@ -8,7 +8,7 @@ function Skills() {
   return (
     <div className="skills__container" id="skills">
       <h1>Some of the skills that I have...</h1>
-      <h2>-Front End-</h2>
+      <h2>- Front End -</h2>
       <div className="skill__cards__container">
         {skillListFE.map((e, index) => {
           return (
@@ -38,7 +38,7 @@ function Skills() {
           );
         })}
       </div>
-      <h2>-Back End-</h2>
+      <h2>- Back End -</h2>
       <div className="skill__cards__container">
         {skillListBE.map((e, index) => {
           return (
@@ -68,7 +68,7 @@ function Skills() {
           );
         })}
       </div>
-      <h2>-IDEs and Tools-</h2>
+      <h2>- IDEs and Tools -</h2>
       <div className="skill__cards__container">
         {skillListIDE.map((e, index) => {
           return (
@@ -98,6 +98,11 @@ function Skills() {
           );
         })}
       </div>
+      <section id="section06" className="demo">
+        <a href="#portfolio">
+          <span></span>Scroll
+        </a>
+      </section>
     </div>
   );
 }

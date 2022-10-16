@@ -4,24 +4,22 @@ import { resumeList } from "../../repositories/resumeList";
 
 function Resume() {
   return (
-    <div>
-      <div className="resume-container" id="resume">
-        <h1>Resume</h1>
-      </div>
+    <div className="resume__main__container" id="resume">
+      <h1>Resume</h1>
       <section>
         <div className="container">
           {resumeList.map((e, index) => {
             return (
               <div className="main-timeline" key={index}>
-                <div className={e.dir} >
+                <div className={e.dir}>
                   <div className="card">
                     <div className="card-body p-3 d-lg-flex">
                       <div>
                         <img
                           src={e.src}
                           className="card-img-top me-4 mb-4"
-                          alt=".."                         
-                          style={{height: "100px", width: "120px"}}
+                          alt=".."
+                          style={{ height: "100px", width: "120px" }}
                         />
                       </div>
                       <div>
@@ -37,6 +35,11 @@ function Resume() {
             );
           })}
         </div>
+      </section>
+      <section id="section06" className="demo">
+        <a href="#skills">
+          <span></span>Scroll
+        </a>
       </section>
     </div>
   );

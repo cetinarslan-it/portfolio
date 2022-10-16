@@ -1,3 +1,16 @@
+.contact__main__container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:5rem;
+}
+.contact__main__container h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 .form-container{ 
   background-color: var(--nav-color);
   padding: 2rem;   
@@ -10,13 +23,6 @@
   box-shadow: 10px 10px 5px #aaaaaa;
   background: linear-gradient(90deg, var(--nav-color), gray);
   box-shadow: 4px 4px 8px #CBCBCB, -4px -4px 8px #FFFFFF; 
-}
-
-.contact__main__container h1 {
-  font-weight: bold;
-  text-align: center;
-  padding-top: 5rem;
-  padding-bottom:2rem;
 }
 
 .form-container p{
