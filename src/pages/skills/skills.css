@@ -13,13 +13,18 @@
   text-align: center;
 }
 
+.skills__container h2 {
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 .skill__cards__container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
-  padding-bottom:10rem;
 }
 
 .skill__card {
@@ -48,7 +53,6 @@
 }
 
 .skill__icons {
-  height: 130px;
   text-decoration: none;
 }
 
@@ -60,7 +64,6 @@
 }
 
 .skill__links {
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 
