@@ -32,7 +32,7 @@
 
 @media only screen and (max-width: 600px) {
   .footer_container {
-    font-size:smaller;
+    font-size: 0.7rem;
   }
   .footer__data__links {
     flex-direction: column;
@@ -69,6 +69,7 @@
 
   .addPadding {
     display: flex;
+    font-size: 0.5rem;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 1rem;

@@ -111,47 +111,48 @@ hr{
 /* ----------- MEDIA QUERY --------------- */
 
 @media only screen and (max-width: 1100px) {
-  .about-container__body {
+  .about__main__container-body {
     flex-direction: column;
     align-items: center;
   }
 
-  .about-container h1 {
+  .about__main__container h1 {
     font-size: 30px;
     margin-bottom: 4rem;
   }
 
-  .about-container img {
+  .about__main__container img {
     width: 180px;
     height: 180px;
     margin-right: 2rem;
   }
 }
-.about-container__text {
+.about__main__container-text {
   min-width:300px;
 }
 
-.about-container__text p {
+.about__main__container-text p {
   font-size: 23px;
  }
 
 @media only screen and (max-width: 600px) {
-  .about-container h1 {
+  .about__main__container h1 {
     font-size: 26px;
     margin-bottom: 2rem;
   }
 
-  .about-container img {
+  .about__main__ontainer img {
     width: 150px;
     height: 150px;
   }
 
-  .about-container__text {
+  .about__main__container-text {
     max-width: 300px;
     margin: 0 1rem;
   }
 
-  .about-container__text p {
+  .about__main__container-text p {
     font-size: 20px;
    }
+   
 }
