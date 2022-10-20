@@ -67,17 +67,6 @@
   justify-content: center;
 }
 
-@media only screen and (max-width: 900px) {
-  
-  .portfolio__main__container p {
-   font-size:smaller;
-  }
-
-  #portfolio__card__container {
-    width: 95%;
-    padding: 0.5rem 1rem;
-  }
-}
 
 .demo a {
   position: absolute;
@@ -141,6 +130,19 @@
   100% {
     transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
     opacity: 0;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  
+  .portfolio__main__container p {
+   font-size:smaller;
+  }
+
+  #portfolio__card__container {
+    width: 95%;
+    padding: 0.5rem 1rem;
   }
 }
 

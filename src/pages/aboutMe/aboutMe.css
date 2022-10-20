@@ -37,15 +37,14 @@ hr{
   min-width: 500px;
   text-align: justify;
   text-justify: inter-word;
-}
-
-.about__main__container-text p {
- font-size: 25px;
+  font-size: 25px;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .demo a {
   position: absolute;
-  margin-top: -10%;
+  margin-top: -15%;
   margin-left: 47%;
   z-index: 2;
   display: inline-block;
@@ -63,23 +62,7 @@ hr{
   opacity: .6;
 }
 
-#section06 a {
-  padding-top: 60px;
-}
 
-#section06 a span {
-  position: absolute;
-  top: 0;
-  left: 35%;
-  width: 30px;
-  height: 30px;
-  border-left: 6px solid black;
-  border-bottom: 6px solid black;
-  -webkit-transform: rotateZ(-90deg);
-  transform: rotateZ(-90deg);
-  -webkit-animation: sdb06 3s infinite;
-  animation: sdb06 6s infinite; 
-}
 
 @-webkit-keyframes sdb06 {
   0% {
@@ -127,58 +110,54 @@ hr{
     margin-right: 2rem;
   }
 
-  .demo a {   
-    margin-top: -10%;
-    margin-left: 45%;
+  .about__main__container-text {
+    font-size: 25px;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
-}
-.about__main__container-text {
-  min-width:300px;
+
+  .demo a {  
+    margin-top: -25%;
+    margin-left: 46%;
+    font-size: 2rem;
+  }
+
 }
 
-.about__main__container-text p {
-  font-size: 23px;
- }
+@media only screen and (max-width: 900px) {
 
- @media only screen and (max-width: 900px) {
-  .demo a {   
+  .demo a {  
     margin-top: -35%;
-    margin-left: 44%;
+    margin-left: 45%;
+    font-size: 2rem;
   }
 }
+
 
 @media only screen and (max-width: 600px) {
+
   .about__main__container h1 {
     font-size: 26px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
-  .about__main__ontainer img {
-    width: 150px;
-    height: 150px;
+  .about__main__container img {
+    width: 180px;
+    height: 180px;
+    margin-right: 2rem;
   }
 
   .about__main__container-text {
-    max-width: 300px;
-    margin: 0 1rem;
-  }
-
-  .about__main__container-text p {
     font-size: 20px;
-   }
+    margin-right: 2rem;
+    margin-left: 2rem;
+    max-width: 560px;
+    min-width: 270px;
+  }
 
-   .demo a {  
-    font-size: 1.3rem; 
+  .demo a {  
     margin-top: -60%;
-    margin-left: 42%;
+    margin-left: 37%;
+    font-size: 1.5rem;
   }
-
-  #section06 a span {    
-    left: 40%;
-    width: 20px;
-    height: 20px;
-    border-left: 4px solid black;
-    border-bottom: 4px solid black;   
-  }
-   
 }

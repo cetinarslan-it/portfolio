@@ -19,7 +19,7 @@ function NavigationBar() {
       <Navbar
         className="navigation__container"
         style={{
-          zIndex: "2",
+          zIndex: "4",
           position: "fixed",
           top: "0",
           width: "100%",
