@@ -45,8 +45,8 @@ hr{
 
 .demo a {
   position: absolute;
-  margin-top: 10%;
-  margin-left: -3%;
+  margin-top: -10%;
+  margin-left: 47%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -126,6 +126,11 @@ hr{
     height: 180px;
     margin-right: 2rem;
   }
+
+  .demo a {   
+    margin-top: -10%;
+    margin-left: 45%;
+  }
 }
 .about__main__container-text {
   min-width:300px;
@@ -134,6 +139,13 @@ hr{
 .about__main__container-text p {
   font-size: 23px;
  }
+
+ @media only screen and (max-width: 900px) {
+  .demo a {   
+    margin-top: -35%;
+    margin-left: 44%;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .about__main__container h1 {
@@ -154,5 +166,19 @@ hr{
   .about__main__container-text p {
     font-size: 20px;
    }
+
+   .demo a {  
+    font-size: 1.3rem; 
+    margin-top: -60%;
+    margin-left: 42%;
+  }
+
+  #section06 a span {    
+    left: 40%;
+    width: 20px;
+    height: 20px;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;   
+  }
    
 }

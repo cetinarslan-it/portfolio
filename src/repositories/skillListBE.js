@@ -15,7 +15,7 @@ export const skillListBE = [
         link: "https://dotnet.microsoft.com/en-us/",
     },
     {
-        name: "Entity Framework",
+        name: "Microsoft EF",
         src: require("../images/icons/entityframework-icon.png"),
         link: "https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16",
     },

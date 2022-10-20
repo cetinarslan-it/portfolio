@@ -40,11 +40,6 @@ export const skillListIDE = [
         link: "https://www.github.com/",
     },
     {
-        name: "Docker",
-        src: require("../images/icons/docker-icon.png"),
-        link: "https://www.docker.com/",
-    },
-    {
         name: "Azure",
         src: require("../images/icons/azure-icon.png"),
         link: "https://azure.microsoft.com/en-us/",

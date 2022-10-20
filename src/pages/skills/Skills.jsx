@@ -12,15 +12,20 @@ function Skills() {
       <div className="skill__cards__container">
         {skillListFE.map((e, index) => {
           return (
-            <a 
-              key={index} 
+            <a
+              key={index}
               className="skill__links"
               href={e.link}
               target="_blank"
               rel="noreferrer"
             >
               <div className="skill__card">
-                <img src={e.src} width="50" alt="c# icon" style={{ marginTop: "1rem"}}/>
+                <img
+                  src={e.src}
+                  width="50"
+                  alt="c# icon"
+                  style={{ marginTop: "1rem" }}
+                />
                 <span
                   style={{
                     color: "black",
@@ -42,15 +47,20 @@ function Skills() {
       <div className="skill__cards__container">
         {skillListBE.map((e, index) => {
           return (
-            <a 
-              key={index} 
+            <a
+              key={index}
               className="skill__links"
               href={e.link}
               target="_blank"
               rel="noreferrer"
             >
               <div className="skill__card">
-                <img src={e.src} width="50" alt="c# icon" style={{ marginTop: "1rem"}}/>
+                <img
+                  src={e.src}
+                  width="50"
+                  alt="c# icon"
+                  style={{ marginTop: "1rem" }}
+                />
                 <span
                   style={{
                     color: "black",
@@ -72,15 +82,20 @@ function Skills() {
       <div className="skill__cards__container">
         {skillListIDE.map((e, index) => {
           return (
-            <a 
-              key={index} 
+            <a
+              key={index}
               className="skill__links"
               href={e.link}
               target="_blank"
               rel="noreferrer"
             >
               <div className="skill__card">
-                <img src={e.src} width="50" alt="c# icon" style={{ marginTop: "1rem"}}/>
+                <img
+                  src={e.src}
+                  width="50"
+                  alt="c# icon"
+                  style={{ marginTop: "1rem" }}
+                />
                 <span
                   style={{
                     color: "black",

@@ -65,7 +65,7 @@ function Footer() {
           <div className="addPadding">{createLinks()}</div>
         </div>
       </div>
-      <div style={{ textAlign: "center", marginLeft:"3%"}}>
+      <div style={{ textAlign: "center"}}>
         Copyright&copy; {new Date().getFullYear()} Cetin's Portfolio - All rights reserved
       </div>
     </div>

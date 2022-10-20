@@ -2,13 +2,15 @@
   background-color: var(--nav-color);
   color: aliceblue;
   padding: 1rem;
+  padding-top:2rem;
+ 
 }
 
 .footer__container--links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 2rem;
+  margin-right: 6rem;
 }
 
 .footer__container--links img {
@@ -69,7 +71,7 @@
 
   .addPadding {
     display: flex;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 1rem;
