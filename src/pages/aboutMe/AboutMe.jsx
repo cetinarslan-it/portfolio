@@ -28,6 +28,11 @@ function AboutMe() {
           <p>I love harmony and a friendly working environment...</p>
         </div>
       </div>
+      <section id="scroll__aboutme" className="demo__aboutme">
+        <a href="#resume">
+          <span></span>Scroll
+        </a>
+      </section>
     </div>
   );
 }

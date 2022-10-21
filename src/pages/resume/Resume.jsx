@@ -36,7 +36,7 @@ function Resume() {
           })}
         </div>
       </section>
-      <section id="section06" className="demo">
+      <section id="scroll__resume" className="demo__resume">
         <a href="#skills">
           <span></span>Scroll
         </a>

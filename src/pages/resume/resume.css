@@ -112,10 +112,10 @@ hr{
   left: -12px;
 }
 
-.demo a {
+.demo__resume a {
   position: absolute;
   margin-top: 4%;
-  margin-left: -2.6%;
+  margin-left: -2.7%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -128,15 +128,15 @@ hr{
   transition: opacity .1s;
 }
 
-.demo a:hover {
+.demo__resume a:hover {
   opacity: .6;
 }
 
-#section06 a {
+#scroll__resume a {
   padding-top: 60px;
 }
 
-#section06 a span {
+#scroll__resume a span {
   position: absolute;
   top: 0;
   left: 35%;
@@ -179,30 +179,51 @@ hr{
 
 /* ----------- MEDIA QUERY --------------- */
 
+@media only screen and (max-width: 1300px) {
+ 
+  .demo__resume a {
+    margin-top: 5%;
+    margin-left: -4%;
+  }  
+}
+
 @media only screen and (max-width: 1100px) {
-  .about-container__body {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-container h1 {
-    font-size: 30px;
-    margin-bottom: 4rem;
-  }
-
-  .about-container img {
-    width: 180px;
-    height: 180px;
-    margin-right: 2rem;
-  }
-}
-.about-container__text {
-  min-width:300px;
+ 
+  .demo__resume a {
+    margin-top: 7%;
+    margin-left: -5.2%;
+  }  
 }
 
-.about-container__text p {
-  font-size: 23px;
- }
+@media only screen and (max-width: 900px) {
+ 
+  .demo__resume a {
+    margin-top: 8%;
+    margin-left: -6%;
+  }  
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  .demo__resume a {
+    margin-top: 10%;
+    margin-left: -7.5%;
+  }  
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .demo__resume a {
+    margin-top: 15%;
+  }  
+}
+
+@media only screen and (max-width: 450px) {
+ 
+  .demo__resume a {
+    margin-left: -11%;
+  }  
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {

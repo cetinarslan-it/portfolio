@@ -68,7 +68,7 @@
 }
 
 
-.demo a {
+.demo__portfolio a {
   position: absolute;
   margin-top: 4%;
   margin-left: -2.6%;
@@ -84,15 +84,15 @@
   transition: opacity .1s;
 }
 
-.demo a:hover {
+.demo__portfolio a:hover {
   opacity: .6;
 }
 
-#section06 a {
+#scroll__portfolio a {
   padding-top: 60px;
 }
 
-#section06 a span {
+#scroll__portfolio a span {
   position: absolute;
   top: 0;
   left: 35%;
@@ -134,6 +134,23 @@
 }
 
 
+@media only screen and (max-width: 1500px) {
+
+  .demo__portfolio a {
+    margin-top: 5%;
+    margin-left: -3.5%;
+  }  
+
+}
+
+@media only screen and (max-width: 1100px) {
+  
+  .demo__portfolio a {
+    margin-top: 5%;
+    margin-left: -5%;
+  }  
+}
+
 @media only screen and (max-width: 900px) {
   
   .portfolio__main__container p {
@@ -144,6 +161,38 @@
     width: 95%;
     padding: 0.5rem 1rem;
   }
+
+  .demo__portfolio a {
+    margin-top: 2%;
+    margin-left: -6%;
+  }  
 }
+
+@media only screen and (max-width: 800px) {
+  
+  .demo__portfolio a {
+    margin-top: 2%;
+    margin-left: -5%;
+    font-size: 1.5rem;
+  }  
+
+  #scroll__portfolio a span {
+    width: 25px;
+    height: 25px;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;   
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  .demo__portfolio a {
+    margin-left: -6.5%;
+  }  
+
+}
+  
+
+
+
 
 

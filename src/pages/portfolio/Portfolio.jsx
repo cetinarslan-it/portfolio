@@ -103,7 +103,7 @@ function Portfolio() {
       <Container className="card-container" fluid="lg" style={{ padding: "1rem", cursor: "pointer"}}>
         <Row className="row" style={{ padding: "0px"}}>{mapped}</Row>
       </Container>
-      <section id="section06" className="demo">
+      <section id="scroll__portfolio" className="demo__portfolio">
         <a href="#contact">
           <span></span>Scroll
         </a>

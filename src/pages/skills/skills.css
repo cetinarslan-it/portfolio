@@ -66,7 +66,7 @@
   text-decoration: none;  
 }
 
-.demo a {
+.demo__skills a {
   position: absolute;
   margin-top: 4%;
   margin-left: -2.6%;
@@ -82,15 +82,15 @@
   transition: opacity .1s;
 }
 
-.demo a:hover {
+.demo__skills a:hover {
   opacity: .6;
 }
 
-#section06 a {
+#scroll__skills a {
   padding-top: 60px;
 }
 
-#section06 a span {
+#scroll__skills a span {
   position: absolute;
   top: 0;
   left: 35%;
@@ -130,4 +130,70 @@
     opacity: 0;
   }
 }
+
+@media only screen and (max-width: 1500px) {
+
+  .demo__skills a {
+    margin-top: 5%;
+    margin-left: -3%;
+  }  
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .demo__skills a {
+    margin-top: 7%;
+    margin-left: -4%;
+  }  
+
+}
+
+@media only screen and (max-width: 1100px) {
+  
+  .skill__cards__container {
+    margin-bottom: 4rem;
+  }
+
+  .demo__skills a {
+    margin-top: 2%;
+    margin-left: -5%;
+  }  
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .skill__cards__container {
+    margin-bottom: 3rem;
+  }
+
+  .demo__skills a {
+    margin-top: 2%;
+    margin-left: -6%;
+  }  
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .demo__skills a {
+    margin-top: 2%;
+    margin-left: -5%;
+    font-size: 1.5rem;
+  }  
+
+  #scroll__skills a span {
+    width: 25px;
+    height: 25px;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;   
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  .demo__skills a {
+    margin-left: -6.5%;
+  }  
+
+}
+  
 

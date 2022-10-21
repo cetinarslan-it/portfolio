@@ -113,7 +113,7 @@ function Skills() {
           );
         })}
       </div>
-      <section id="section06" className="demo">
+      <section id="scroll__skills" className="demo__skills">
         <a href="#portfolio">
           <span></span>Scroll
         </a>
