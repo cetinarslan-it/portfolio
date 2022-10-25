@@ -31,7 +31,7 @@ function Portfolio() {
           <Image
             className="modal-image"
             src={data.image}
-            style={{ width: "100%" }}
+            style={{ width: "100%"}}
           />
         </Modal.Body>
         <a

@@ -9,7 +9,7 @@ const portfolioData = [
     link: "https://github.com/cetinarslan-it/portfolio",
     desc: "Personel Web Page - Blog",
     summary: "The app created in React.js library",
-    tech: "React.js, Bootstarp, tspatticles, CSS3",
+    tech: "React.js, Bootstarp, tsparticles, CSS3",
   },
  {
     image: StudentPortal,
