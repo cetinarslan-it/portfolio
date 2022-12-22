@@ -115,7 +115,7 @@ function Skills() {
       </div>
       <section id="scroll__skills" className="demo__skills">
         <a href="#portfolio">
-          <span></span>Scroll
+          <span></span>More
         </a>
       </section>
     </div>

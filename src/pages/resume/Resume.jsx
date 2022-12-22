@@ -38,7 +38,7 @@ function Resume() {
       </section>
       <section id="scroll__resume" className="demo__resume">
         <a href="#skills">
-          <span></span>Scroll
+          <span></span>More
         </a>
       </section>
     </div>

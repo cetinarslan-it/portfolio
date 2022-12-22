@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutMe.css";
-import Person from "../../images/myPicture.png";
+import Person from "../../images/myPicture.jpg";
 
 function AboutMe() {
   return (
@@ -30,7 +30,7 @@ function AboutMe() {
       </div>
       <section id="scroll__aboutme" className="demo__aboutme">
         <a href="#resume">
-          <span></span>Scroll
+          <span></span>More
         </a>
       </section>
     </div>

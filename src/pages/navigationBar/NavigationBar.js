@@ -3,7 +3,7 @@ import "./navigation.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../repositories/navigationLinks";
-import Person from "../../images/myPicture.png";
+import Person from "../../images/myPicture.jpg";
 
 function createLinks() {
   return navigationLinks.map((e, index) => (
