@@ -115,13 +115,13 @@ hr{
 .demo__resume a {
   position: absolute;
   margin-top: 4%;
-  margin-left: -2.7%;
+  right:47.3%;
+  font-size: 1.5rem;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: black;
-  font-size: 2rem;
   font-weight: bold;
   letter-spacing: .1em;
   text-decoration: none;
@@ -179,11 +179,21 @@ hr{
 
 /* ----------- MEDIA QUERY --------------- */
 
+@media only screen and (max-width: 1400px) {
+ 
+  .demo__resume a {
+    margin-top: 5%;
+    right:47%;
+    font-size: 1.4rem;
+  }  
+}
+
 @media only screen and (max-width: 1300px) {
  
   .demo__resume a {
     margin-top: 5%;
-    margin-left: -4%;
+    right:46%;
+    font-size: 1.4rem;
   }  
 }
 
@@ -191,7 +201,8 @@ hr{
  
   .demo__resume a {
     margin-top: 7%;
-    margin-left: -5.2%;
+    right:45.5%;
+    font-size: 1.4rem;
   }  
 }
 
@@ -199,7 +210,8 @@ hr{
  
   .demo__resume a {
     margin-top: 8%;
-    margin-left: -6%;
+    right:45%;
+    font-size: 1.4rem;
   }  
 }
 
@@ -207,7 +219,17 @@ hr{
  
   .demo__resume a {
     margin-top: 10%;
-    margin-left: -7.5%;
+    right:44%;
+    font-size: 1.4rem;
+  }  
+}
+
+@media only screen and (max-width: 700px) {
+ 
+  .demo__resume a {
+    margin-top: 10%;
+    right:43%;
+    font-size: 1.4rem;
   }  
 }
 
@@ -215,13 +237,24 @@ hr{
  
   .demo__resume a {
     margin-top: 15%;
+    right:41%;
+    font-size: 1.4rem;
+  }  
+}
+@media only screen and (max-width: 500px) {
+ 
+  .demo__resume a {
+    margin-top: 15%;
+    right:40%;
+    font-size: 1.4rem;
   }  
 }
 
 @media only screen and (max-width: 450px) {
  
   .demo__resume a {
-    margin-left: -11%;
+    right:39%;
+    font-size: 1.4rem;
   }  
 }
 

@@ -105,7 +105,7 @@ function Portfolio() {
       </Container>
       <section id="scroll__portfolio" className="demo__portfolio">
         <a href="#contact">
-          <span></span>More
+          <span></span>Further
         </a>
       </section>
     </div>

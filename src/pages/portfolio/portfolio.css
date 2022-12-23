@@ -71,13 +71,13 @@
 .demo__portfolio a {
   position: absolute;
   margin-top: 4%;
-  margin-left: -2.6%;
+  right:47%;
+  font-size: 1.5rem;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: black;
-  font-size: 2rem;
   font-weight: bold;
   letter-spacing: .1em;
   text-decoration: none;
@@ -95,7 +95,8 @@
 #scroll__portfolio a span {
   position: absolute;
   top: 0;
-  left: 35%;
+  right:41%;
+  font-size: 1.4rem;
   width: 30px;
   height: 30px;
   border-left: 6px solid black;
@@ -133,12 +134,11 @@
   }
 }
 
-
 @media only screen and (max-width: 1500px) {
-
   .demo__portfolio a {
     margin-top: 5%;
-    margin-left: -3.5%;
+    right:45.5%;
+    font-size: 1.4rem;
   } 
 }
 
@@ -146,7 +146,8 @@
   
   .demo__portfolio a {
     margin-top: 5%;
-    margin-left: -5%;
+    right:44%;
+    font-size: 1.5rem;
   }  
 }
 
@@ -163,16 +164,17 @@
 
   .demo__portfolio a {
     margin-top: 2%;
-    margin-left: -6%;
+    right:43%;
+    font-size: 1.5rem;
   }  
 }
 
 @media only screen and (max-width: 800px) {
   
   .demo__portfolio a {
-    margin-top: 2%;
-    margin-left: -5%;
-    font-size: 1.5rem;
+    margin-top: 2.5%;
+    right:43%;
+    font-size: 1.4rem;
   }  
 
   #scroll__portfolio a span {
@@ -183,9 +185,17 @@
   }
 }
 
+@media only screen and (max-width: 700px) { 
+  .demo__portfolio a {
+    right:41%;
+    font-size:1.4rem;
+  }  
+
+}
+
 @media only screen and (max-width: 600px) { 
   .demo__portfolio a {
-    margin-left: -6.5%;
+    right:39%;
   }  
 
 }

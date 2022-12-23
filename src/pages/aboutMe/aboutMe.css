@@ -45,13 +45,13 @@ hr {
 .demo__aboutme a {
   position: absolute;
   margin-top: 10%;
-  margin-left: -2.5%;
+  right: 47%;
+  font-size: 1.5rem;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: black;
-  font-size: 2rem;
   font-weight: bold;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -77,7 +77,7 @@ hr {
   -webkit-transform: rotateZ(-90deg);
   transform: rotateZ(-90deg);
   -webkit-animation: sdb06 3s infinite;
-  animation: sdb06 6s infinite; 
+  animation: sdb06 6s infinite;
 }
 
 @-webkit-keyframes sdb06 {
@@ -109,6 +109,21 @@ hr {
 
 /* ----------- MEDIA QUERY --------------- */
 
+@media only screen and (max-width: 1500px) {
+  .demo__aboutme a {
+    margin-top: 10%;
+    right: 46.5%;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .demo__aboutme a {
+    margin-top: 10%;
+    right: 46%;
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .about__main__container-body {
     flex-direction: column;
@@ -134,16 +149,16 @@ hr {
 
   .demo__aboutme a {
     margin-top: 10%;
-    margin-left: -3%;
-    font-size: 2.2rem;
+    right: 47%;
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 1100px) {
   .demo__aboutme a {
     margin-top: 10%;
-    margin-left: -4%;
-    font-size: 2rem;
+    right: 45%;
+    font-size: 1.4rem;
   }
 
   #scroll__aboutme a span {
@@ -157,8 +172,8 @@ hr {
 @media only screen and (max-width: 900px) {
   .demo__aboutme a {
     margin-top: 10%;
-    margin-left: -5%;
-    font-size: 1.8rem;
+    right: 43%;
+    font-size: 1.4rem;
   }
 
   #scroll__aboutme a span {
@@ -190,8 +205,8 @@ hr {
   }
   .demo__aboutme a {
     margin-top: 20%;
-    margin-left: -7%;
-    font-size: 1.5rem;
+    right: 39%;
+    font-size: 1.4rem;
   }
 
   #scroll__aboutme a span {

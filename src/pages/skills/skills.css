@@ -69,13 +69,13 @@
 .demo__skills a {
   position: absolute;
   margin-top: 4%;
-  margin-left: -2.6%;
+  right:47%;
+  font-size:1.5rem;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: black;
-  font-size: 2rem;
   font-weight: bold;
   letter-spacing: .1em;
   text-decoration: none;
@@ -88,6 +88,7 @@
 
 #scroll__skills a {
   padding-top: 60px;
+  margin-left:-60px;
 }
 
 #scroll__skills a span {
@@ -135,7 +136,8 @@
 
   .demo__skills a {
     margin-top: 5%;
-    margin-left: -3%;
+    right:46.3%;
+    font-size:1.5rem;
   }  
 
 }
@@ -144,7 +146,8 @@
 
   .demo__skills a {
     margin-top: 7%;
-    margin-left: -4%;
+    right:45.5%;
+    font-size:1.5rem;
   }  
 
 }
@@ -157,7 +160,8 @@
 
   .demo__skills a {
     margin-top: 2%;
-    margin-left: -5%;
+    right:45%;
+    font-size:1.5rem;
   }  
 }
 
@@ -169,16 +173,17 @@
 
   .demo__skills a {
     margin-top: 2%;
-    margin-left: -6%;
+    right:44%;
+    font-size:1.5rem;
   }  
 }
 
 @media only screen and (max-width: 800px) {
   
   .demo__skills a {
+    right:42%;
     margin-top: 2%;
-    margin-left: -5%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }  
 
   #scroll__skills a span {
@@ -189,11 +194,16 @@
   }
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
+  
   .demo__skills a {
-    margin-left: -6.5%;
-  }  
+    right:40%;
+    margin-top: 2%;
+    font-size: 1.4rem;
+  } 
 
 }
+
+
   
 

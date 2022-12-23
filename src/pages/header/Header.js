@@ -5,7 +5,9 @@ import "./header.css";
 function Header() {
   return (
     <div className="header-container">
-      <h1 className="header-main">My name is Cetin!</h1>
+      <h1 className="header-main-salute">Hello!</h1>
+      <br/><br/>
+      <h1 className="header-main-text">My name is Cetin.</h1>
       <Typed
         strings={[
           "",
@@ -23,7 +25,7 @@ function Header() {
       <div className="Scroll__container">
         <section id="scroll__header" className="demo__header">
           <a href="#about">
-            <span></span>More
+            <span></span>Further
           </a>
         </section>
       </div>

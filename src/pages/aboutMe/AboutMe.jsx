@@ -30,7 +30,7 @@ function AboutMe() {
       </div>
       <section id="scroll__aboutme" className="demo__aboutme">
         <a href="#resume">
-          <span></span>More
+          <span></span>Further
         </a>
       </section>
     </div>

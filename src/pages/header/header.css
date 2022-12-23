@@ -13,8 +13,12 @@
   font-size: 60px;
 }
 
-.header-main {
-  margin-top:-200px;
+.header-main-salute {
+  font-size: 9rem;
+}
+
+.header-main-text {
+  margin-top:-180px;
   font-size: 9rem;
 }
 
