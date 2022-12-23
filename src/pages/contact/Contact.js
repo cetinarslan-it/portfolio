@@ -15,20 +15,20 @@ function Contact() {
           <input type="hidden" name="form-name" value="contact" />
 
           <label htmlFor="firstname">First Name* <br /></label>
-          <input type="text" id="firstname" name="firstname" placeholder="Cetin" required />
+          <input type="text" id="firstname" name="firstname" placeholder="e.g. Cetin" required />
 
           <label htmlFor="lastname">Last Name*<br /></label>
-          <input type="text" id="lastname" name="lastname" placeholder="Arslan" required />
+          <input type="text" id="lastname" name="lastname" placeholder="e.g. Arslan" required />
 
           <label htmlFor="phonenumber">Phone Number<br /></label>
-          <input type="text" id="phonenumber" name="phonenumber" placeholder="XXX-XXX-XX-XX" />
+          <input type="text" id="phonenumber" name="phonenumber" placeholder="e.g. 072 777 70 79" />
 
           <label htmlFor="email">Email* <br /></label>
           <input
             id="email"
             name="email"
             type="email"
-            placeholder="cetinarslan@email.com"
+            placeholder="e.g. cetinarslan.se@gmail.com"
             required
           />  
 
@@ -36,7 +36,7 @@ function Contact() {
           <textarea
             id="textarea"
             name="message"
-            placeholder="Type your message here..."
+            placeholder="Please type your message here..."
             required
           />
 
