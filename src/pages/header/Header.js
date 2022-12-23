@@ -6,16 +6,16 @@ function Header() {
   return (
     <div className="header-container">
       <h1 className="header-main-salute">Hello!</h1>
-      <br/><br/>
+      <br/>
       <h1 className="header-main-text">My name is Cetin.</h1>
       <Typed
         strings={[
           "",
-          "I am a...",
+          "I am",
           "System Engineer",
           "Automation Tester",
-          "and...",
-          "Fullstack .Net Developer",
+          "and",
+          "Full Stack .Net Developer",
           "Welcome to my website!...",
         ]}
         typeSpeed={140}
