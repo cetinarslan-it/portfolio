@@ -13,17 +13,21 @@ function AboutMe() {
         </div>
         <div className="about__main__container-text">
           <p>
-            Coding has always been an area that I have been interested in.
-            Moving to Sweden gave me a big chance to start a new career.
+            I am a full stack C# .NET developer with experience in both
+            front-end and back-end development, as well as software testing.
           </p>
           <p>
-            I have experience both as a manual and automation tester in software
-            and my passion to go deeper into coding led me to join Salt
-            Bootcamp.
+            I am passionate about creating intuitive and user-friendly
+            applications. In my previous roles, I have gained experience in
+            testing and debugging software to ensure high quality.
           </p>
           <p>
-            Thanks to my earlier experience in agile scrum methodology, I am
-            aware of the power of collaboration and teamwork.
+            In addition to my technical skills, I am a strong team player with
+            excellent communication skills.
+          </p>
+          <p>
+            I am always looking to learn and grow as a developer and excited to
+            take on new challenges.
           </p>
           <p>I love harmony and a friendly working environment...</p>
         </div>
