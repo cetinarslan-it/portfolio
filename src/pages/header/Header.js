@@ -9,6 +9,7 @@ function Header() {
       <br/>
       <h1 className="header-main-text">My name is Cetin.</h1>
       <Typed
+        className="typed-script"
         strings={[
           "",
           "I am",

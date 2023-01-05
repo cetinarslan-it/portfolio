@@ -10,19 +10,18 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 .header-main-salute {
-  font-size: 9rem;
+  font-size: 4rem;
 }
 
-.header-main-text {
- 
-  font-size: 9rem;
+.header-main-text { 
+  font-size: 4rem;
 }
 
-.header-container {
+.typed-script{
   font-size: 4rem;
 }
 
@@ -94,35 +93,51 @@
 /* ---------------- Media Query --------------------------- */
 
 @media only screen and (max-width: 1300px) {
+
   .demo__header a { 
     margin-top: 10%;
     margin-left: -5%;   
   }
-  .header-main-salute{
-    font-size:8rem;
+
+  .header-container {
+    font-size: 4rem;
   }
-  .header-main-text{
-    font-size:8rem;
+
+  .header-main-salute {
+    font-size: 4rem;
+  }
+  
+  .header-main-text { 
+    font-size: 4rem;
+  }
+  
+  .typed-script{
+    font-size: 4rem;
   }
 }
 
 @media only screen and (max-width: 1100px) {
 
-  .header-main-salute {
-    font-size: 6rem;
-  }
-  .header-main-text {
-    font-size: 6rem;
+  .demo__header a { 
+    margin-top: 15%;
+    margin-left: -6%;
+    font-size: 2rem;
   }
 
   .header-container {
     font-size: 3rem;
   }
 
-  .demo__header a { 
-    margin-top: 25%;
-    margin-left: -6%;
-    font-size: 2rem;
+  .header-main-salute {
+    font-size: 3rem;
+  }
+  
+  .header-main-text { 
+    font-size: 3rem;
+  }
+  
+  .typed-script{
+    font-size: 3rem;
   }
 
   #scroll__header a span {   
@@ -136,16 +151,25 @@
 @media only screen and (max-width: 900px) {
 
   .demo__header a { 
-    margin-top: 25%;
+    margin-top: 15%;
     margin-left: -7%;
     font-size: 2rem;
   }
 
-  .header-main-salute{
-    font-size:4rem;
+   .header-container {
+    font-size: 3rem;
   }
-  .header-main-text{
-    font-size:4rem;
+
+  .header-main-salute {
+    font-size: 3rem;
+  }
+  
+  .header-main-text { 
+    font-size: 3rem;
+  }
+  
+  .typed-script{
+    font-size: 3rem;
   }
 
   #scroll__header a span {   
@@ -158,14 +182,19 @@
 
 @media only screen and (max-width: 600px) {
 
-  .header-main-salute {
-    font-size: 3rem;
-  }
-  .header-main-text {
-    font-size: 3rem;
+  .header-container {
+    font-size: 2rem;
   }
 
-  .header-container {
+  .header-main-salute {
+    font-size: 2rem;
+  }
+  
+  .header-main-text { 
+    font-size: 2rem;
+  }
+  
+  .typed-script{
     font-size: 2rem;
   }
 
