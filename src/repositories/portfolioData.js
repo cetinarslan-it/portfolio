@@ -2,6 +2,7 @@ import StudentPortal from "../images/projectGIFs/StudentPortal.gif";
 import NZWalksAPI from "../images/projectGIFs/NZWalks.gif";
 import ToDoApp from "../images/projectGIFs/Todo-react.gif";
 import Portfolio from "../images/projectGIFs/Portfolio.gif";
+import FlightBooking from "../images/projectGIFs/FlightBooking.gif";
 
 const portfolioData = [
   {
@@ -14,9 +15,16 @@ const portfolioData = [
  {
     image: StudentPortal,
     link: "https://github.com/cetinarslan-it/StudentPortal",
-    desc: "Student Portal",
+    desc: "Student Portal App",
     summary: "An app for students to reach educational materials",
     tech: "React, Javascript|HTML5|CSS3, MUI",
+  },
+  {
+    image: FlightBooking,
+    link: "https://github.com/cetinarslan-it/BookingApp",
+    desc: "Flight Booking App",
+    summary: "An app for booking flight tickets",
+    tech: "React, TypeScript|HTML5|CSS3, Bootstarp5, ASP.Net Webapi, EF, SSMS",
   },
   {
     image: NZWalksAPI,
