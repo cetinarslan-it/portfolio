@@ -26,7 +26,7 @@ function Resume() {
                         <h3>{e.date}</h3>
                         <p className="mb-0 exp-title">{e.title}</p>
                         <hr></hr>
-                        <p className="mb-0">{e.exp}</p>
+                        <p className="mb-0 exp-body">{e.exp}</p>
                       </div>
                     </div>
                   </div>

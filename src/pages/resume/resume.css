@@ -23,15 +23,15 @@
   transform: scale(1.08);
 }
 
-
 .exp-title {
   font-weight:bold;
   font-size:1.3rem;
 }
 
-hr{
-  margin-bottom:1rem;
+.exp-body {
+  margin-top:-3rem;
 }
+
 
 /* The actual timeline (the vertical ruler) */
 .main-timeline {

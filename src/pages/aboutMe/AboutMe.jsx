@@ -13,7 +13,7 @@ function AboutMe() {
         </div>
         <div className="about__main__container-text">
           <p>
-            I am a full stack C# .NET developer with experience in both
+            I am a <em><b>Full Stack C# .Net Developer</b></em> with experience in both
             front-end and back-end development, as well as software testing.
           </p>
           <p>
