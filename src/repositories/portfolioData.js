@@ -2,11 +2,19 @@ import StudentPortal from "../images/projectGIFs/StudentPortal.gif";
 import NZWalksAPI from "../images/projectGIFs/NZWalks.gif";
 import ToDoApp from "../images/projectGIFs/Todo-react.gif";
 import Portfolio from "../images/projectGIFs/Portfolio.gif";
+import PortfolioBlog from "../images/projectGIFs/PortfolioBlog.gif";
 import FlightBooking from "../images/projectGIFs/FlightBooking.gif";
 
 const portfolioData = [
   {
     image: Portfolio,
+    link: "https://github.com/cetinarslan-it/portfolio",
+    desc: "Personel Web Page - Blog",
+    summary: "The app created in React.js library",
+    tech: "React.js, Bootstarp, tsparticles, CSS3",
+  },
+  {
+    image: PortfolioBlog,
     link: "https://github.com/cetinarslan-it/portfolio",
     desc: "Personel Web Page - Blog",
     summary: "The app created in React.js library",
